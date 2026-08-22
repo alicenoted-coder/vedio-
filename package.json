@@ -1,0 +1,15 @@
+{
+  "name": "vedio-",
+  "version": "0.1.0",
+  "private": true,
+  "description": "通用網頁抓取引擎（scrape.mjs）+ 蝦皮/Threads/IG/Facebook 專用爬蟲（scraper/）",
+  "scripts": {
+    "scrape": "tsx scraper/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "playwright": "1.56.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.2"
+  }
+}

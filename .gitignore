@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# scrape.mjs 通用引擎的輸出
+out/
+
+# scraper/ 平台專用爬蟲的輸出與登入 session（含敏感資料，絕對不要 commit）
+data/
+.auth/
+
+# misc
+.DS_Store
+*.tsbuildinfo
